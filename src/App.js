@@ -15,7 +15,7 @@ const theme = createMuiTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <AppHeader title="Binary Decoder" subTitle="for Kids"></AppHeader>
+      
       <DecoderContainer>
 
       </DecoderContainer>

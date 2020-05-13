@@ -15,7 +15,7 @@ function DecodedMessage(props) {
         <div className={classes.root}>
             <TextField
                 id="outlined-multiline-static"
-                label="See the message here"
+                label="You stink"
                 multiline
                 rows={4}
                 variant="outlined"

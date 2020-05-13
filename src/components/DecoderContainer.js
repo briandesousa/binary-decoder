@@ -44,13 +44,13 @@ function DecoderContainer(props) {
                     <Grid item xs={6}>
                         <Paper elevation={5} className={classes.paper}>
                             <h2 className={classes.heading}>Binary Code</h2>
-                            <BinaryInputField value={binaryCode} handleBinaryCode={handleBinaryCode} />
+                            
                         </Paper>
                     </Grid>
                     <Grid item xs={6}>
                         <Paper elevation={5} className={classes.paper}>
                             <h2 className={classes.heading}>Secret Message</h2>
-                            <DecodedMessage message={message}></DecodedMessage>
+                            
                         </Paper>
                     </Grid>
                 </Grid>
