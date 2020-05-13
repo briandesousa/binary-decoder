@@ -30,11 +30,11 @@ function DecoderContainer(props) {
     const handleBinaryCode = binary => {
         setBinaryCode(binary);
 
-        let outputStr = binary.split(' ')
+        let decodedMessage = binary.split(' ')
             .map(bin => String.fromCharCode(parseInt(bin, 2)))
             .join('');
 
-        setMessage(outputStr);
+        setMessage(decodedMessage);
     }
 
     return (
